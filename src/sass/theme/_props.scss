@@ -1,0 +1,19 @@
+$col-primary-400: #074D99;
+$col-primary-600: #053366;
+$col-primary-900: #031933;
+$col-secondary-400: #00C0FB;
+$col-secondary-400--tx: #00C0FBE6; // cc
+$col-highlight-400: #F97A30;
+$col-black: #1a1a1a;
+$col-white: #ffffff;
+
+:root {
+    --col-primary-400: #{$col-primary-400};
+    --col-primary-600: #{$col-primary-600};
+    --col-primary-900: #{$col-primary-900};
+    --col-secondary-400: #{$col-secondary-400};
+    --col-secondary-400--tx: #{$col-secondary-400--tx};
+    --col-highlight-400: #{$col-highlight-400};
+    --col-black: #{$col-black};
+    --col-white: #{$col-white};
+}

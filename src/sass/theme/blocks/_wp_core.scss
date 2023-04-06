@@ -1,0 +1,63 @@
+.wp-block-quote--cb {
+    position: relative;
+    z-index: 0;
+    &:has(.has-default-color) {
+        background-color: var(--rbf-blue-300);
+        color: var(--rbf-blue-900);
+        cite {
+            color: var(--rbf-blue-900);
+        }
+    }
+    &:has(.has-donate-color) {
+        background-color: var(--rbf-purple-300);
+        color: var(--rbf-purple-900);
+        cite {
+            color: var(--rbf-purple-900);
+        }
+    }
+
+    .wp-block-quote {
+        position: relative;
+        padding: 2rem;
+        @media (min-width:768px) {
+            padding: 2rem 4rem 2rem 5.5rem;
+
+            &::before {
+                content: '"';
+                position: absolute;
+                left: 2rem;
+                font-size: 5rem;
+                line-height: 1;
+            }
+        }
+        cite {
+            margin-top: 1rem;
+            display: block;
+            text-align: right;
+        }
+    }
+    .overlay {
+        position: absolute;
+        z-index: -1;
+
+        top: calc(300px + 2rem);
+        bottom: 2rem;
+        right: 0;
+        left: -3rem;
+        @media (min-width:992px) {
+            top: 2rem;
+            left: -5rem;
+        }
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg id='Layer_2' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 353.4 301.53'%3E%3Cdefs%3E%3Cstyle%3E .cls-1 %7B fill: none; stroke: %23fff; stroke-linejoin: round; stroke-width: 1px; %7D .cls-2 %7B opacity: .4; %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2-2' data-name='Layer 2'%3E%3Cg class='cls-2'%3E%3Cpath class='cls-1' d='m244.32,14.7c41.22,5.34,82.3,21.67,82.3,46.12v103.08c15.25-22.02,25.29-44.43,25.29-65.31,0-86.96-88.21-119.08-152.42-81.72,12.23-3.44,27.49-4.38,44.84-2.17Z'/%3E%3Cpath class='cls-1' d='m285.36,212.12l-84.89-18.49c-.23.01-.45.04-.63.09-1.39.35-2.43,1.04-2.43,1.04l-18.06,11.47s-1.61.68-1.52,1.74c.09,1.05,2.7,1.41,2.7,1.41l86.31,20.36c6.23-5.67,12.44-11.56,18.52-17.61Z'/%3E%3Cpath class='cls-1' d='m205.77,141.34c0,7.17-5.6,12.21-12.5,11.26-6.86-.95-12.41-7.49-12.41-14.61s5.55-12.17,12.41-11.27c6.89.9,12.5,7.46,12.5,14.63Z'/%3E%3Cpath class='cls-1' d='m279.31,154.99c0,7.3,5.59,14,12.51,14.98,6.95.97,12.59-4.2,12.59-11.55s-5.65-14.07-12.59-14.99c-6.92-.92-12.51,4.26-12.51,11.56Z'/%3E%3Cpath class='cls-1' d='m244.37,38c-33.67-4.41-60.27,2.21-63.29,17.89-4.69,24.34.17,53.87,63.25,62.64,64.18,8.92,63.66-20.61,64.17-45.63.31-15.21-30.22-30.47-64.13-34.9Z'/%3E%3Cpath class='cls-1' d='m308.5,72.9c.2-9.79-12.39-19.6-30.43-26.53-18.8.75-64.02,26.61-65.04,64.57,8.36,3.22,18.64,5.83,31.3,7.59,64.17,8.92,63.66-20.61,64.17-45.63Z'/%3E%3Cpath class='cls-1' d='m176.7,187.12c-1.11-1.04-2.56-2.49-4.3-4.38-3.32-3.59-10.98-19.2-10.98-44.66,0,0,1.91-73.33,7.34-94.95,1.02-4.07,2.91-7.81,5.58-11.16C110.45-26.97,1.5,1.94,1.5,98.58c0,45.26,47.11,97.74,92.47,137.79l82.73-48.02.82-.48c-.24-.22-.52-.48-.82-.76Z'/%3E%3Cg%3E%3Cpath class='cls-1' d='m176.7,226.3l-20.21-4.99s-.83-.11-1.55,0c-.72.11-1.61.58-1.61.58l-18.45,10.43s-1.03.55-.68,1.37c.26.62,1.46.76,1.46.76l41.04,11.1,54.26,14.68c6.18-4.94,12.63-10.23,19.18-15.81l-73.45-18.12Z'/%3E%3Cpath class='cls-1' d='m111.14,251.05c35.34,29.28,65.56,48.98,65.56,48.98,0,0,13.39-8.73,32.77-23.2l-32.77-8.6-65.56-17.19Z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+}
+
+.container-xl {
+    .container-xl {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

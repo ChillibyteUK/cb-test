@@ -1,0 +1,51 @@
+.btn--small {
+    width: 160px;
+    padding: 0.75rem 1rem;
+    height: auto;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+    &::after {
+        content: "\f105";
+        font-family: "Font Awesome 6 Free";
+        margin-left: 0.25rem;
+    }
+}
+
+.btn-primary {
+    background-color: var(--col-highlight-400);
+    border-color: var(--col-highlight-400);
+    color: var(--col-white) !important;
+    &:hover {
+        background-color: darken($col-highlight-400,10%);
+        border-color: var(--col-highlight-400);
+        color: var(--col-white) !important;
+    }
+}
+
+.btn-secondary {
+    background-color: var(--col-primary-400);
+    border-color: var(--col-primary-400);
+    color: var(--col-white) !important;
+    &:hover {
+        background-color: darken($col-primary-400,10%);
+        border-color: var(--col-primary-400);
+        color: var(--col-white) !important;
+    }
+}
+
+.btn-primary:disabled {
+    background-color: var(--col-grey-400);
+    border-color: var(--col-grey-400);
+    color: var(--col-white) !important;
+}
+
+.gform_footer button[type=submit] {
+    @extend .btn;
+    @extend .btn-primary;
+}

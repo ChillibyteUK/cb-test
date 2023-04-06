@@ -1,0 +1,34 @@
+.specialist {
+    background-image: url(../img/specialist-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--col-white);
+    &__card {
+        display: block;
+        border: 1px solid var(--col-white);
+        color: var(--col-white);
+        padding: 2rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.2s ease-out;
+        &:hover {
+            color: var(--col-white);
+            background-color: var(--col-secondary-400--tx);
+        }
+    }
+    &__title {
+        font-weight: 600;
+        &::after {
+            content: "\f105";
+            font-family: "Font Awesome 6 Free";
+            margin-left: 0.25rem;
+        }
+    }
+    h2 {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 8px solid var(--col-white);
+        color: var(--col-white);
+    }
+}

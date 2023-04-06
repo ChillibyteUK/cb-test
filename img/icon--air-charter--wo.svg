@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 80">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="air_shipment" data-name="air shipment">
+      <g id="airplane">
+        <polyline class="cls-1" points="49.45 47.08 34 41.91 34 47.08 41 52"/>
+        <polyline class="cls-1" points="72.79 24.39 34 10 34 17 50.59 28.42 59.67 37.52"/>
+        <polyline class="cls-1" points="53 64 57.91 71 63.09 71 57.92 55.56"/>
+        <path class="cls-1" d="m72.85,24.39l12.45-12.45c2.14-2.14,6.94-4.36,9.55-1.78h0c2.56,2.6.34,7.41-1.8,9.55l-12.45,12.44"/>
+        <path class="cls-1" d="m61,52l-2.38,2.13c-2.14,2.15-14.22,11.64-16.79,9h0c-2.6-2.57,6.9-14.64,9-16.79l11.67-11.6"/>
+      </g>
+      <polyline class="cls-1" points="96 40 83 37 66 41"/>
+      <polyline class="cls-1" points="76 44.14 80 45 96 41"/>
+      <polyline class="cls-1" points="66 41 66 59 80 64 96 59 96 40"/>
+      <line class="cls-1" x1="80" y1="45" x2="80" y2="58"/>
+      <line class="cls-1" x1="88.33" y1="55.58" x2="91.33" y2="54.58"/>
+    </g>
+    <rect class="cls-2" width="130" height="80"/>
+  </g>
+</svg>

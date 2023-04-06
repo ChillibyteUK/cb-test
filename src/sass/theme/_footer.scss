@@ -1,0 +1,55 @@
+.footer {
+    background-color: var(--col-primary-600);
+    color: var(--col-white);
+    font-size: 0.875rem;
+
+
+    .menu {
+        list-style: none;
+        padding-inline-start: 0;
+    }
+    a {
+        text-decoration: none;
+        color: var(--col-white);
+        transition: all .3s ease;
+        &:hover {
+            color: var(--col-highlight-400);
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid var(--col-white);
+    }
+
+    &__contact {
+        span {
+            display: inline-block;
+            width: 3rem;
+        }
+    }
+
+}
+.colophon {
+    background-color: var(--col-primary-900);
+    font-size: 0.75rem;
+    a {
+        text-decoration: none;
+        color: var(--col-white);
+        transition: all .3s ease;
+        &:hover {
+            color: var(--col-highlight-400);
+        }
+    }
+    .cb {
+        content: url(../img/cb.png);
+        opacity: .6;
+        transition: all .3s ease;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
