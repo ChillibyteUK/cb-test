@@ -11,3 +11,6 @@ install WP Pusher https://wppusher.com/download/
 
 add GitHub token
 
+Install Theme - Push-to-deploy - use URL from webhook
+
+commit / sync / bingo!
